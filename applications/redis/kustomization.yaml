@@ -1,0 +1,6 @@
+configMapGenerator:
+- name: wordpress-redis-config
+  files:
+  - redis-config
+resources:
+- redis.yaml
